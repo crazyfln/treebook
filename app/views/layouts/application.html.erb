@@ -10,7 +10,7 @@
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
-			<a class="brand" href="#">豆三</a>
+			<a class="brand" href="#">什么玩意儿？</a>
 			<ul class="nav">
 				<li><%= link_to "首页", statuses_path %></li>
 			</ul>
@@ -19,6 +19,8 @@
 </div>
 
 <div class="container">
+	<p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
 	<%= yield %>
 </div>
 
