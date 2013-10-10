@@ -12,15 +12,15 @@
 		<div class="container">
 			<a class="brand" href="/">什么玩意儿？</a>
 			<ul class="nav">
-				<li><%= link_to "首页", statuses_path %></li>
+				<li><%= link_to "首页", home_path %></li>
 			</ul>
 			<ul class="nav pull-right">
 				<% if user_signed_in? %>
 					<li><%= link_to current_user.full_name, edit_user_registration_path %></li>
-					<li><%= link_to "退出", destroy_user_session_path, method: :delete %></li>
+					<li><%= link_to "退出", logout_path %></li>
 				<% else %>
-					<li><%= link_to "注册", new_user_registration_path %></li>
-					<li><%= link_to "登录", new_user_session_path %></li>				
+					<li><%= link_to "注册", register_path %></li>
+					<li><%= link_to "登录", login_path %></li>				
 				<% end %>
 			</ul>
 		</div>
@@ -28,8 +28,18 @@
 </div>
 
 <div class="container">
-	<p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+
+	<% flash.each do |type, message| %>
+		<div class="alert <%= flash_class type %>">
+			<button class="close" data-dismiss="alert">x</button>
+			<%= message %>
+		</div>
+	<% end %>
+	<% if flash[:notice] %>
+
+	<% end %>
+
+
 	<%= yield %>
 </div>
 
