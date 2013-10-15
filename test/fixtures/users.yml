@@ -3,3 +3,10 @@ linan:
   last_name: "Feng"
   email: "fenglinan@gmail.com"
   profile_name: "pointbreak"
+
+
+jim:
+  first_name: "Jim"
+  last_name: "Hoskins"
+  email: "jim@teamtreehouse.com"
+  profile_name: "jimhoskins"
