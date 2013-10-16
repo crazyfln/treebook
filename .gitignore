@@ -16,3 +16,11 @@
 /tmp
 
 .DS_Store
+database.yml
+doc/
+*.swp
+*~
+.project
+.idea
+.secret
+/bin
