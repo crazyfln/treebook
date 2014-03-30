@@ -3,7 +3,7 @@
 		<%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), html: {class: "well"}) do |f| %>
 
 		    <fieldset>
-		    	<legend>登录</legend>			
+		    	<legend>Sign In</legend>			
 				<%= f.input :email %>
 				<%= f.input :password %>
 
@@ -11,15 +11,15 @@
 				  <div><%= f.input :remember_me, as: :boolean %></div>
 				<% end -%>
 
-				<div><%= f.button :submit, "登录" %></div>
+				<div><%= f.button :submit, "Sign In" %></div>
 		    </fieldset>
 		<% end %>
 
 
 		<%= render "devise/shared/links" %>
 	</div>
-
+	
 	<div class="span8">
-		<h2>这些都他妈的是什么玩意儿？</h2>
+		<h2>Our site is under construction now. We will launch it soon.</h2>
 	</div>
 </div>

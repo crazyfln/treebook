@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>什么玩意儿？</title>
+  <title>Home For Grandma</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -10,17 +10,17 @@
 <div class="navbar navbar-fixed-top global-nav">
 	<div class="navbar-inner">
 		<div class="container">
-			<a class="brand" href="/">什么玩意儿？</a>
+			<a class="brand" href="/">Home For Grandma</a>
 			<ul class="nav">
-				<li><%= link_to "首页", home_path %></li>
+				<li><%= link_to "Home Page", home_path %></li>
 			</ul>
 			<ul class="nav pull-right">
 				<% if user_signed_in? %>
 					<li><%= link_to current_user.full_name, edit_user_registration_path %></li>
-					<li><%= link_to "退出", logout_path %></li>
+					<li><%= link_to "Sign Out", logout_path %></li>
 				<% else %>
-					<li><%= link_to "注册", register_path %></li>
-					<li><%= link_to "登录", login_path %></li>				
+					<li><%= link_to "Sigh Up", register_path %></li>
+					<li><%= link_to "Sign In", login_path %></li>				
 				<% end %>
 			</ul>
 		</div>
