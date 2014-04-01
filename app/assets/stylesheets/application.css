@@ -27,7 +27,7 @@ body {
 }
 
 #logo-img {
-	background: url("B-card.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	background: url("images/B-card.png") no-repeat scroll left top rgba(0, 0, 0, 0);
 	height: 100px;
 	width: 100px;
 	background-size: contain;
