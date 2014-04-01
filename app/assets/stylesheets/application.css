@@ -14,11 +14,11 @@
 
 body {
 	padding:27px 0 0;
-	background: url("stitched_wool.png") repeat scroll left top #FFFFFF;
+	background: url("./images/stitched_wool.png") repeat scroll left top #FFFFFF;
 }
 
 #logo {
-    background: url("homeforgrandma.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    background: url("./images/homeforgrandma.png") no-repeat scroll left top rgba(0, 0, 0, 0);
     display: inline-block;
     height: 40px;
     margin: 30px 0 30px;
@@ -27,7 +27,7 @@ body {
 }
 
 #logo-img {
-	background: url("B-card.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	background: url("./images/B-card.png") no-repeat scroll left top rgba(0, 0, 0, 0);
 	height: 100px;
 	width: 100px;
 	background-size: contain;
@@ -42,7 +42,7 @@ body {
 }
 
 .logo-content1 {
-	background: url("logocontent1.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	background: url("./images/logocontent1.png") no-repeat scroll left top rgba(0, 0, 0, 0);
 	background-size: contain;
     height: 20px;
     text-indent: -9999px;
@@ -50,7 +50,7 @@ body {
 }
 
 .logo-content2 {
-	background: url("logocontent2.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	background: url("./images/logocontent2.png") no-repeat scroll left top rgba(0, 0, 0, 0);
 	background-size: contain;
     height: 30px;
     text-indent: -9999px;
@@ -64,11 +64,11 @@ body {
 }
 
 #video_top {
-    background: url("video_top.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+    background: url("./images/video_top.png") repeat-x scroll left top rgba(0, 0, 0, 0);
 }
 
 #video_bot {
-    background: url("video_bottom.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+    background: url("./images/video_bottom.png") repeat-x scroll left top rgba(0, 0, 0, 0);
 }
 
 #video_top, #video_bot {
