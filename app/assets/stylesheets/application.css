@@ -42,7 +42,7 @@ body {
 }
 
 .logo-content1 {
-	background: url("logocontent1.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	background: url("images/logocontent1.png") no-repeat scroll left top rgba(0, 0, 0, 0);
 	background-size: contain;
     height: 20px;
     text-indent: -9999px;
