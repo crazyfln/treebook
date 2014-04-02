@@ -44,9 +44,9 @@ body {
 .logo-content1 {
 	background: url("images/logocontent1.png") no-repeat scroll left top rgba(0, 0, 0, 0);
 	background-size: contain;
-    height: 20px;
+    height: 40px;
     text-indent: -9999px;
-    width: 280px;
+    width: 380px;
 }
 
 .logo-content2 {
@@ -59,7 +59,7 @@ body {
 
 #video {
     box-shadow: 0 6px 6px 5px rgba(0, 0, 0, 0.1);
-    margin: 0 -20px 40px;
+    margin: 0 -15px 40px;
     padding: 0 20px;
 }
 
