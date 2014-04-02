@@ -11,10 +11,16 @@
  *= require_self
  *= require_tree .
  */
+@font-face {
+    font-family: 'Museo700Regular'; /*a name to be used later*/
+    src: url('Museo700-Regular.otf') format("opentype"); /*URL to font*/
+}
 
 body {
 	padding:27px 0 0;
 	background: url("stitched_wool.png") repeat scroll left top #FFFFFF;
+	font-family: 'Museo700Regular',arial,helvetica,sans-serif;
+    font-weight: normal;
 }
 
 #logo {
@@ -116,7 +122,77 @@ body {
 
 .mc_custom_border_hdr {
     color: #017C76;
-    font-size: 23px;
+    font-size: 21px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.should-we {
+    color: #0D6080;
+    font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+#mc_signup {
+    margin-bottom: 34px;
+}
+
+.mc_merge_var {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 65%;
+}
+
+#mc_mv_EMAIL {
+    border: medium none;
+    color: #29AAD2;
+    font-size: 18px;
+    height: 40px;
+    margin: 0;
+    padding: 1px;
+    text-indent: 20px;
+    width: 100%;
+}
+
+.mc_signup_submit {
+    text-align: center;
+    display: inline-block;
+    float: right;
+    width: 32%;
+}
+
+#mc_signup_submit {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 1%, #D8B683 1%, #D8B683 3%, #C7964D 3%, #BF7514 50%, #AF6900 50%, #AF6900 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #854500;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-shadow: 0 2px #854500;
+    width: 100%;
+}
+
+#slider {
+    background: none repeat scroll 0 0 #29AAD2;
+    box-shadow: 0 1px 0 0 #3283BA, 0 2px 0 0 #FFFFFF;
+    color: #297EA5;
+    padding: 30px 0;
+}
+
+#slider .span6 .m700 {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-shadow: 0 2px #226489;
+}
+
+#slider p {
+	margin-top: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-shadow: 0 2px #226489;
 }
