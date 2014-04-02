@@ -95,3 +95,29 @@ body {
 	height: 100%;
 	width: 100%;
 }
+
+.header .span12 {
+    color: #017C76;
+    font-size: 39px;
+    line-height: 130%;
+    margin-bottom: 12px;
+    text-align: center;
+    text-shadow: 0 2px #FFFFFF;
+}
+
+.header .span12 strong {
+    box-shadow: 0 1px 0 0 #CDCDCD, 0 2px 0 0 #FFFFFF, 0 3px 0 0 #CDCDCD, 0 4px 0 0 #FFFFFF;
+    color: #0D6080;
+}
+
+.m700, strong, .bold, b {
+    font-family: 'Museo700Regular',arial,helvetica,sans-serif;
+    font-weight: normal;
+}
+
+.mc_custom_border_hdr {
+    color: #017C76;
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-align: center;
+}
