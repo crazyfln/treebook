@@ -12,6 +12,8 @@ Treebook::Application.routes.draw do
   get 'home', to: 'statuses#index', as: :home
   root 'statuses#index'
 
+  resources :contacts
+
   get '/:id', to: 'profiles#show'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
